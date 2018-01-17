@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+		<![CDATA[
+import java.util.Scanner;
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+	public static void main(String[] args)
+	{
+		Scanner scr=new Scanner(System.in);
+	}
+}
+]]>
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>macros</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
